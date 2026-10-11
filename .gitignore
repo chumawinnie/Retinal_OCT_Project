@@ -19,3 +19,8 @@ results/excluded_duplicate_patients.csv
 results/preprocessing_comparison.csv
 results/shared_errors.csv
 results/shared_error_metadata.csv
+
+results/sample_scans.png
+results/**/error_review.png
+results/**/crop_review.png
+results/shared_error_metadata.csv

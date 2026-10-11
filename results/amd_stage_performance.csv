@@ -1,0 +1,11 @@
+stage,patients,detected,missed,sensitivity,method
+early,113,103,10,0.911504424778761,crop
+early; intermediate,1,1,0,1.0,crop
+intermediate,68,67,1,0.9852941176470589,crop
+intermediate; late,1,1,0,1.0,crop
+late,202,200,2,0.9900990099009901,crop
+early,113,84,29,0.7433628318584071,padding
+early; intermediate,1,0,1,0.0,padding
+intermediate,68,66,2,0.9705882352941176,padding
+intermediate; late,1,1,0,1.0,padding
+late,202,201,1,0.995049504950495,padding

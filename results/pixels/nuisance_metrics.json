@@ -1,0 +1,23 @@
+{
+  "auroc": 0.7285714285714286,
+  "auroc_bootstrap_95ci": [
+    0.6790303606836517,
+    0.7746919491670236
+  ],
+  "balanced_accuracy": 0.7018255329576084,
+  "sensitivity": 0.6961038961038961,
+  "specificity": 0.7075471698113207,
+  "dummy_balanced_accuracy": 0.5,
+  "confusion_matrix": [
+    [
+      75,
+      31
+    ],
+    [
+      117,
+      268
+    ]
+  ],
+  "validation": "five-fold patient-level out-of-fold; fixed hyperparameters",
+  "uncertainty_note": "Bootstrap of patient OOF predictions; does not include refitting uncertainty"
+}

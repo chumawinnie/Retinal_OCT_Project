@@ -1,0 +1,30 @@
+{
+  "auroc": 0.7931389365351629,
+  "auroc_bootstrap_95ci": [
+    0.7489016216254788,
+    0.8321222955739055
+  ],
+  "balanced_accuracy": 0.6973045822102426,
+  "sensitivity": 0.8285714285714286,
+  "specificity": 0.5660377358490566,
+  "dummy_balanced_accuracy": 0.5,
+  "confusion_matrix": [
+    [
+      60,
+      46
+    ],
+    [
+      66,
+      319
+    ]
+  ],
+  "validation": "five-fold patient-level out-of-fold; fixed hyperparameters",
+  "uncertainty_note": "Bootstrap of patient OOF predictions; does not include refitting uncertainty",
+  "encoder": "pixels",
+  "n_images": 1423,
+  "n_patients": 491,
+  "patients_per_class": {
+    "AMD": 385,
+    "NO": 106
+  }
+}

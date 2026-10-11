@@ -78,8 +78,6 @@ Evaluated on 491 patients after duplicate-related exclusions. Early AMD sensitiv
 ## Public repository contents
 Source images, virtual environments, model weights, scan features and identifier-level results are excluded. Summary metrics, stage counts and exploratory PCA plots are included. Run the workflow to regenerate detailed outputs locally. The `.gitignore` prevents routine accidental tracking; it does not remove files that were already tracked.
 
-## AI assistance and contribution
-This portfolio project was developed with ChatGPT/Codex assistance for code and documentation. Chukwuma Winner Obiora executed and reproduced the analyses in WSL and reviewed the outputs. The project is an exploratory learning and research exercise. RETFound, longitudinal modelling and clinical validation are future work.
 
 ## Verification
 ```sh

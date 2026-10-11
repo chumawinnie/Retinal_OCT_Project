@@ -59,7 +59,7 @@ def figures(errors,retained):
     import torch
     from torchvision.models import ResNet18_Weights
     transform=ResNet18_Weights.DEFAULT.transforms()
-    selected=['3165551','4006332','1781906','5504078','8156034','8689539']
+    selected=errors.sort_values('oof_probability').patient_id.head(6).tolist()
     selected=[p for p in selected if p in set(retained.patient_id)]
     fig,axes=plt.subplots(len(selected),2,figsize=(12,2.5*len(selected)),squeeze=False)
     for i,p in enumerate(selected):
